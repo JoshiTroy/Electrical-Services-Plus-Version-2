@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+
+    <title>Electrical Services Plus</title>
+ </head>
+ <body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="assets/esp-logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"style="color: var(--blue)"; ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" style="color: var(--blue);"></i>
+        </nav>
+            <h1>Contact Us</h1>
+
+    </section>
+
+    <!---------------------Contact Information------------------------>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413.82864083761103!2d-117.91001285589995!3d33.92494360478413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd542799793a3%3A0x65001791b5d31a94!2s837%20W%20Lambert%20Rd%2C%20Brea%2C%20CA%2092821%2C%20USA!5e0!3m2!1sen!2sca!4v1719500184256!5m2!1sen!2sca" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+        
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>837 W LAMBERT RD</h5>
+                        <p>BREA, CA 92821</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>MAIN: (800) 714-1747</h5>
+                        <p>FAX: (714) 213-8308</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>electrical.services@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="6d86f427-daf9-4894-9658-920a96010f07">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Subject" required>
+                    <textarea rows="8" name="message "placeholder=" Your Message" required></textarea>
+                    <button type="submit" class="hero-btn blue-btn"> Send Message</button>
+                </form>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+  
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We maintain a simple but very efficient operation to cut down our overhead expenses and then, 
+           <br> we pass the savings to our client by keeping the construction cost low.</p>
+           <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+           </div>
+           <p>Made with <i class="fa-solid fa-solar-panel"></i> by Electrical Services Plus, Inc.  </p>
+        </section>
+
+    <script src="./script.js"></script>
+    
+ </body>
+ </html>       
+
+
