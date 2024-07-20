@@ -30,7 +30,7 @@
 }
 
 .bg-photo img {
-  min-height: 100vh;
+  height: 110vh;
   width: 100%;
   background-position: center;
   background-size: cover;
