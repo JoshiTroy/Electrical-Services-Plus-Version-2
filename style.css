@@ -24,14 +24,13 @@
 .header {
   min-height: 100vh;
   width: 100%;
-
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
 .bg-photo img {
-  min-height: 70vh;
+  min-height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
