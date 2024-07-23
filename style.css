@@ -165,12 +165,15 @@ nav img {
 .text-box h1 {
   font-size: 52px;
   font-weight: 600;
+  color: var(--white);
+  -webkit-text-stroke: 1px #000000;
 }
 
-..text-box p {
+.text-box p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 20px;
   color: var(--white);
+  -webkit-text-stroke: 0.2px #000000;
 }
 
 .hero-btn {
