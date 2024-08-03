@@ -63,7 +63,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  animation: sliding 30s cubic-bezier(1, 0.95, 0.565, 1) infinite;
 }
 
 @keyframes sliding {
@@ -165,8 +164,7 @@ nav img {
 .text-box h1 {
   font-size: 52px;
   font-weight: 600;
-  color: var(--white);
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 2px #000000;
 }
 
 .text-box p {
